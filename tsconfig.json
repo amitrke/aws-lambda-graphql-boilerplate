@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
+    "module": "commonjs",
     "lib": [
-      "es2017"
+      "es6"
     ],
     "moduleResolution": "node",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "sourceMap": false,
-    "target": "es2017",
+    "target": "es6",
     "outDir": "lib"
   },
   "exclude": [

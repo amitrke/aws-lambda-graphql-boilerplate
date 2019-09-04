@@ -14,10 +14,14 @@
     "@types/node": "^10.12.18",
     "rimraf": "^3.0.0",
     "serverless": "^1.51.0",
+    "serverless-offline": "^5.10.1",
     "serverless-plugin-typescript": "^1.1.9",
     "serverless-webpack": "^5.2.0",
     "typescript": "^3.2.4"
   },
   "author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^14.5.4"
+  }
 }
