@@ -25,6 +25,7 @@ jobs:
         npm run deploy
     - name: Deploy
       uses: actions/aws
-      run: npm run deploy
+      run: |
+        npm run deploy
       env:
         CI: true
