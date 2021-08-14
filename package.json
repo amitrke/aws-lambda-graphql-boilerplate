@@ -13,17 +13,17 @@
   "devDependencies": {
     "@types/aws-lambda": "^8.10.17",
     "@types/graphql": "^14.5.0",
-    "@types/node": "^10.12.18",
+    "@types/node": "^16.6.1",
     "rimraf": "^3.0.0",
-    "serverless": "^1.51.0",
-    "serverless-offline": "^5.10.1",
+    "serverless": "^2.54.0",
+    "serverless-offline": "^8.0.0",
     "serverless-plugin-typescript": "^1.1.9",
     "serverless-webpack": "^5.2.0",
-    "typescript": "^3.2.4"
+    "typescript": "^4.3.5"
   },
   "author": "Amit Kumar",
   "license": "MIT",
   "dependencies": {
-    "graphql": "^14.5.4"
+    "graphql": "^15.5.1"
   }
 }
