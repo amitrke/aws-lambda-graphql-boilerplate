@@ -1,0 +1,29 @@
+{
+	"name": "dev",
+
+	"dockerComposeFile": [
+		"docker-compose.yml"
+	],
+
+	"service": "dev",
+
+	"workspaceFolder": "/root/workspace",
+
+	"settings": {
+		"eslint.alwaysShowStatus": true,
+		"eslint.format.enable": true,
+		"eslint.lintTask.enable": true	
+	},
+
+	"extensions": [
+		// ESLint
+		"dbaeumer.vscode-eslint",
+		// git extensions that are highly recommended
+		"eamodio.gitlens",
+		"mhutchie.git-graph",
+		// nice file icons from vscode icons team
+		"vscode-icons-team.vscode-icons"
+	],
+
+	//"forwardPorts": [ 19000, 19001, 19002 ]
+}
