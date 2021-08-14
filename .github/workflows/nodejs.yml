@@ -22,7 +22,6 @@ jobs:
         npm install
         npm run build --if-present
         npm test
-        npm run deploy
       env:
         CI: true
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
